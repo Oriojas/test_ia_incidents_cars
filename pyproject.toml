@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "test-ia-incidents-cars"
+version = "0.1.0"
+description = ""
+authors = ["oscar50 <oscar@whaleandjaguar.co>"]
+readme = "README.md"
+packages = [{include = "test_ia_incidents_cars"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.1"
+scikit-learn = "^1.2.2"
+plotly = "^5.14.1"
+fastapi = "^0.95.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
